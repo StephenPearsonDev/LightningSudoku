@@ -4,14 +4,6 @@
   box-sizing: border-box; 
 }
 
-html, body {
-  height: 100dvh;
-  overflow: hidden; 
-  touch-action: none; 
-  -webkit-overflow-scrolling: none; 
-}
-
-
 body {
   background-color: #627582;
   color: #fff;
@@ -31,10 +23,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start; 
-  width: 100vw;
-  height: 100dvh; 
-  max-height: 100dvh;
-  overflow: hidden;
   padding-top: 1rem; 
 }
   
@@ -321,19 +309,19 @@ body {
 
   @media (min-width: 601px) {
     .container {
-      max-width:600px;
+      max-width:700px;
       gap:2rem;
     }
 
     .placeholder-board {
-      width: 520px;
-      height: 520px;
+      width: 480px;
+      height: 480px;
 
     }
 
     .sudoku-board {
-      width: 520px;
-      height: 520px;
+      width: 480px;
+      height: 480px;
     }
 
     .nav {
@@ -355,3 +343,5 @@ body {
   }
 
   }
+
+  
